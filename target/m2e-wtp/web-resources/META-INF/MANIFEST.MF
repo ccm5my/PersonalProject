@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: HelloWeb
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: cmoore
+Implementation-Vendor-Id: HelloWeb
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/HelloWeb
+Created-By: Maven Integration for Eclipse
+
