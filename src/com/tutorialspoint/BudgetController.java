@@ -8,16 +8,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class StudentController {
-   @RequestMapping(value = "/student", method = RequestMethod.GET)
-   public ModelAndView student() {
-      return new ModelAndView("student", "command", new Student());
+public class BudgetController {
+   @RequestMapping(value = "/buckets", method = RequestMethod.GET)
+   public ModelAndView bucket() {
+      return new ModelAndView("budget", "command", new Bucket());
    }
-   @RequestMapping(value = "/addStudent", method = RequestMethod.POST)
-      public String addStudent(@ModelAttribute("SpringWeb") Student student,  ModelMap model) {
-      model.addAttribute("name", student.getName());
-      model.addAttribute("age", student.getAge());
-      model.addAttribute("id", student.getId());
+   @RequestMapping(value = "/updateBuckets", method = RequestMethod.POST)
+      public String updateBuckets(@ModelAttribute("SpringWeb") Bucket bucket,  ModelMap model) {
+      model.addAttribute("name", bucket.getName());
+      model.addAttribute("paymentAmount", bucket.getPaymentAmount());
+      model.addAttribute("goalAmount", bucket.getGoalAmount());
       
       return "result";
    }

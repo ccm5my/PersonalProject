@@ -5,20 +5,20 @@
    </head>
 
    <body>
-      <h2>Student Information</h2>
-      <form:form method = "POST" action = "/HelloWeb/addStudent">
+      <h2>Enter Budget Breakdown Amounts</h2>
+      <form:form method = "POST" action = "/BudgetBreakdown/updateBuckets">
          <table>
             <tr>
                <td><form:label path = "name">Name</form:label></td>
                <td><form:input path = "name" /></td>
             </tr>
             <tr>
-               <td><form:label path = "age">Age</form:label></td>
-               <td><form:input path = "age" /></td>
+               <td><form:label path = "paymentAmount">Payment Amount</form:label></td>
+               <td><form:input path = "paymentAmount" /></td>
             </tr>
             <tr>
-               <td><form:label path = "id">id</form:label></td>
-               <td><form:input path = "id" /></td>
+               <td><form:label path = "goalAmount">Goal Amount</form:label></td>
+               <td><form:input path = "goalAmount" /></td>
             </tr>
             <tr>
                <td colspan = "2">

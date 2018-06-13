@@ -7,19 +7,19 @@
    </head>
 
    <body>
-      <h2>Submitted Student Information</h2>
+      <h2>Updated Totals in each bucket</h2>
       <table>
          <tr>
             <td>Name</td>
-            <td>${name}</td>
+            <td>Car Insurance</td>
          </tr>
          <tr>
-            <td>Age</td>
-            <td>${age}</td>
+            <td>Payment Amount</td>
+            <td>${paymentAmount}</td>
          </tr>
          <tr>
-            <td>ID</td>
-            <td>${id}</td>
+            <td>Goal Amount</td>
+            <td>${goalAmount}</td>
          </tr>
       </table>  
    </body>
