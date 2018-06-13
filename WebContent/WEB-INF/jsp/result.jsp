@@ -10,17 +10,26 @@
       <h2>Updated Totals in each bucket</h2>
       <table>
          <tr>
-            <td>Name</td>
-            <td>Car Insurance</td>
+            <td>Name:</td>
+            <td>${name}</td>
+         </tr>
+          <tr>
+            <td>CurrentAmount</td>
+            <td>${currentAmount}</td>
          </tr>
          <tr>
-            <td>Payment Amount</td>
+            <td>Payment Amount:</td>
             <td>${paymentAmount}</td>
          </tr>
          <tr>
-            <td>Goal Amount</td>
+            <td>Goal Amount:</td>
             <td>${goalAmount}</td>
          </tr>
+         <tr>
+         	 <td>New Amount</td>
+            <td>${newAmount}</td>
+         </tr>
+        
       </table>  
    </body>
    
