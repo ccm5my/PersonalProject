@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Implementation-Title: HelloWeb
+Implementation-Title: BudgetBreakdown
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: cmoore
-Implementation-Vendor-Id: HelloWeb
+Implementation-Vendor-Id: BudgetBreakdown
 Build-Jdk: 1.8.0_151
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/HelloWeb
+ ot-starter-parent/BudgetBreakdown
 Created-By: Maven Integration for Eclipse
 
